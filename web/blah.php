@@ -5,7 +5,8 @@
 
 require_once( '../util/webpages.php' );
 
-$page = new MainPage( "<iframe src='http://yfewh.tnsul.servertrust.com/' width=100% height=100% ></iframe>" );
+$title = "LOLWUT...";
+$page = new MainPage( "<img src='http://www.lolwut.com/layout/lolwut.jpg'></img>" );
 $page->SetTitle( $title );
 $page->SetActive( 'blah.php' );
 echo( $page->FetchPage() );
